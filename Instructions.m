@@ -1,0 +1,3 @@
+function[]=Instructions(source,eventdata)
+msg=msgbox(sprintf('The objective of the game is to connect all the similar colored Flow pairs with one another i.e one blue with the other blue using a blue path. \n There should not remain any space empty after connecting all the Flows. \n Make sure to TURN OFF THE CAPS LOCK before starting the game. \n Use color initials for selecting path colors. \n Press: \n "b" for blue \n "c" for cyan \n "l" for light blue \n "y" for yellow\n"g" for green \n "r" for red \n "m" for magenta \n (Case sensitive) \n For releasing the color path press spacebar and the path will be released on that very point.'));
+end

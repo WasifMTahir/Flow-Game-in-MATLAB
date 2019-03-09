@@ -1,0 +1,15 @@
+function [x y] = wbmcb(src,evnt)
+    global ah
+    
+    cp = get(ah,'CurrentPoint');  
+    x = cp(1,1);y = cp(1,2);
+    
+    if x<7 && y<7 && x>1 && y>1 
+        axis equal
+        
+    rectangle('position',[floor(x) floor(y) 1 1], 'Facecolor', 'y','Curvature',[.5,.5],'edgecolor',[1 1 .3]);
+
+
+    end
+    
+  
